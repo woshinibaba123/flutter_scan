@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
-
+namespace 'com.yourname.scan'
     defaultConfig {
         minSdkVersion 19
         consumerProguardFiles 'consumer-proguard-rules.pro'
